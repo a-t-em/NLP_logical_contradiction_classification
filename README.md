@@ -8,6 +8,9 @@ The dataset used in this competition consists of pairs of premises and hypothese
 **Model Architecture**<br>
 The TFBertForSequenceClassification model is a pre-trained deep learning model for NLP classification tasks. In this case, the model is initialized with the pre-trained weights of the bert-base-multilingual-cased model, which is a BERT model that has been trained on multiple languages with cased character input. The num_labels parameter is set to 3 as there are 3 possible labels. The model is trained using the Adam optimizer and the categorical cross-entropy loss function. We use a learning rate of 2e-5 and a batch size of 32.
 
+**Result**
+The associated [Kaggle notebook](https://www.kaggle.com/code/yeemeitsang/nlp-logical-contradiction) submitted to the competition achieved an accuracy score of ~0.64 on the test dataset. Since that version was trained on GPU with limited training capacity, it is expected that more optimal training on TPU could improve from that baseline score.
+
 **Usage**<br>
 To use this notebook, you will need to install the following dependencies:
 - tensorflow
