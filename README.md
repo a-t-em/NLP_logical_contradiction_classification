@@ -14,6 +14,7 @@ To use this notebook, you will need to install the following dependencies:
 - transformers
 - pandas
 - numpy
+
 You will also need to download the competition dataset from [Kaggle](https://www.kaggle.com/competitions/contradictory-my-dear-watson/data) and place the train.csv and test.csv files in the data directory.
 Once you have installed the dependencies and downloaded the dataset, you can run the notebook to train the model and generate predictions on the test set.
 
